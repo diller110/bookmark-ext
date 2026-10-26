@@ -1,0 +1,58 @@
+# Dependencies and generated test output
+node_modules/
+.test-incognito-*/
+test-results/
+playwright-report/
+coverage/
+
+# Local settings, credentials and editor/agent state
+.env
+.env.*
+!.env.example
+*.local
+*.local.*
+.vscode/
+.idea/
+.codex/
+.agents/
+.aws/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# User libraries, browser data and private exports
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+catalog.sqlite*
+/tree/
+/resources/
+/downloads/
+/backups/
+/profiles/
+/user-data/
+/bookmarks*.html
+/bookmarks*.json
+
+# Logs, network dumps, screenshots and temporary artifacts
+*.log
+*.har
+*.tmp
+*.bak
+*.zip
+/screenshots/
+/artifacts/
+/release/
+
+# Internal audit reports and Chrome Web Store submission drafts
+/docs/REVIEW.md
+/docs/chrome-web-store/*.md
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini

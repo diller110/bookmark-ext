@@ -1,0 +1,2174 @@
+{
+  "m_007d2940": {
+    "message": "travail, à lire",
+    "description": "работа, прочитать"
+  },
+  "m_008eb8f0": {
+    "message": "choisissez un dossier dans les paramètres",
+    "description": "выберите папку в настройках"
+  },
+  "m_012a8f80": {
+    "message": "File de téléchargements",
+    "description": "Очередь загрузок"
+  },
+  "m_013ee04f": {
+    "message": "Déplacement de « $p1$ » : $p2$",
+    "description": "Перенос «$1»: $2",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "m_01a75aaf": {
+    "message": "Lire l’aperçu : $p1$",
+    "description": "Воспроизвести превью: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_01f39bbc": {
+    "message": "Dossier sélectionné. La lecture et l’écriture sont autorisées.",
+    "description": "Папка выбрана. Чтение и запись ресурсов разрешены."
+  },
+  "m_02805372": {
+    "message": "Importation des fichiers : $p1$… Gardez cette fenêtre ouverte jusqu’à la fin de l’importation.",
+    "description": "Загрузка файлов: $1… Не закрывайте окно до завершения.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_0386d1e5": {
+    "message": "Lecture de l’ancienne copie : $p1$",
+    "description": "Чтение старой копии: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_046ed606": {
+    "message": "le navigateur ne prend pas en charge ce format",
+    "description": "формат не поддерживается браузером"
+  },
+  "m_04e464ff": {
+    "message": "Ouvert sur le canevas",
+    "description": "Открыт на полотне"
+  },
+  "m_05a403d6": {
+    "message": "Choisissez une fois le dossier de ressources dans une fenêtre Chrome normale.",
+    "description": "Выберите папку ресурсов один раз в обычном окне Chrome."
+  },
+  "m_05ad7ee6": {
+    "message": "Remplacer",
+    "description": "Заменить"
+  },
+  "m_05e6e582": {
+    "message": "Segments téléchargés : $p1$ sur $p2$$p3$",
+    "description": "Загружено сегментов: $1 из $2$3",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "m_06fc79ae": {
+    "message": "Paramètres",
+    "description": "Настройки"
+  },
+  "m_0706495a": {
+    "message": "Ouvrez une page web ordinaire",
+    "description": "Откройте обычную веб-страницу"
+  },
+  "m_0850da8d": {
+    "message": "Autorisez l’écriture dans le dossier sélectionné pour enregistrer des ressources.",
+    "description": "Для сохранения ресурсов разрешите запись в выбранную папку."
+  },
+  "m_09b1fc38": {
+    "message": "Le flux HLS ne contient pas encore de segments complets. Lancez la lecture et relancez le téléchargement.",
+    "description": "В HLS пока нет полных сегментов. Запустите видео и повторите загрузку."
+  },
+  "m_09f758a8": {
+    "message": "Impossible de restaurer le canevas",
+    "description": "Не удалось восстановить полотно"
+  },
+  "m_0a220483": {
+    "message": "Onglet actuel · Étagère de favoris",
+    "description": "Текущая вкладка · Полка закладок"
+  },
+  "m_0adce40e": {
+    "message": "Le dossier du favori est absent",
+    "description": "Отсутствует папка закладки"
+  },
+  "m_0bf5b3d3": {
+    "message": "Dossier enregistré. Autorisez la lecture et l’écriture pour ajouter des ressources.",
+    "description": "Папка сохранена. Разрешите чтение и запись, чтобы добавлять ресурсы."
+  },
+  "m_0c4bb5be": {
+    "message": "Bibliothèque indisponible : $p1$",
+    "description": "Библиотека недоступна: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_0c7f8643": {
+    "message": "Le favori n’existe plus dans Chrome",
+    "description": "Закладка больше не существует в Chrome"
+  },
+  "m_0e01e30c": {
+    "message": "Préparation de l’assemblage vidéo…",
+    "description": "Подготовка сборки видео…"
+  },
+  "m_0e84fe2a": {
+    "message": "Impossible de mettre à jour l’icône de l’onglet",
+    "description": "Не удалось обновить значок вкладки"
+  },
+  "m_0ec90a9a": {
+    "message": "Ressources (",
+    "description": "Ресурсы ("
+  },
+  "m_0fa2db89": {
+    "message": "Ressource suivante",
+    "description": "Следующий ресурс"
+  },
+  "m_101f14a3": {
+    "message": " · extrait disponible",
+    "description": " · доступный фрагмент"
+  },
+  "m_10bb51ae": {
+    "message": "Ajouter au canevas",
+    "description": "Добавить на полотно"
+  },
+  "m_10c595ae": {
+    "message": "Vidéo",
+    "description": "Видео"
+  },
+  "m_10c5c91a": {
+    "message": "Enregistrer",
+    "description": "Сохранить"
+  },
+  "m_10ce15ee": {
+    "message": "La sélection de médias n’est pas disponible dans ce cadre",
+    "description": "Выбор медиа во фрейме недоступен"
+  },
+  "m_118a0a03": {
+    "message": "Le blob dépasse la limite de $p1$ Mo ou le fichier est vide",
+    "description": "Размер blob превышает лимит $1 МБ или файл пуст",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_11f466e5": {
+    "message": "Enregistré : $p1$",
+    "description": "Сохранено: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_11f8563c": {
+    "message": "Actions pour la collection « $p1$ »",
+    "description": "Действия с подборкой «$1»",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_12166e78": {
+    "message": "Enregistrer les étiquettes",
+    "description": "Сохранить теги"
+  },
+  "m_12b13ad3": {
+    "message": "Ajouter à une collection…",
+    "description": "Добавить в подборку…"
+  },
+  "m_1320120f": {
+    "message": "Choisissez un dossier de ressources dans les paramètres, puis revenez aux ressources.",
+    "description": "Выберите папку ресурсов в настройках, затем вернитесь в режим ресурсов."
+  },
+  "m_13aa15e1": {
+    "message": "Impossible de choisir le dossier : $p1$. Le dossier précédent a été conservé.",
+    "description": "Не удалось выбрать папку: $1. Предыдущая папка сохранена.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_140628bc": {
+    "message": "o",
+    "description": "Б"
+  },
+  "m_143397aa": {
+    "message": "Ressources des favoris",
+    "description": "Ресурсы закладок"
+  },
+  "m_14765718": {
+    "message": "Colonne à gauche",
+    "description": "Колонка слева"
+  },
+  "m_14b9b051": {
+    "message": "La valeur startNumber de DASH est trop grande",
+    "description": "Слишком большой startNumber DASH"
+  },
+  "m_150a2c32": {
+    "message": "Effacer les téléchargements terminés",
+    "description": "Очистить завершённые"
+  },
+  "m_154a7c70": {
+    "message": "Image",
+    "description": "Изображение"
+  },
+  "m_1671efb6": {
+    "message": "Bloc de ressource non valide",
+    "description": "Некорректный фрагмент ресурса"
+  },
+  "m_180a7136": {
+    "message": "Téléchargement du blob : $p1$ %",
+    "description": "Загрузка blob: $1 %",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_18a7748f": {
+    "message": "Nettoyage de l’ancienne copie : $p1$",
+    "description": "Очистка старой копии: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_1933aa63": {
+    "message": "Manifeste DASH non valide",
+    "description": "Некорректный DASH-манифест"
+  },
+  "m_199b0c5b": {
+    "message": "Téléchargement…",
+    "description": "Загружается…"
+  },
+  "m_1a285d56": {
+    "message": "Trop de segments DASH",
+    "description": "Слишком много сегментов DASH"
+  },
+  "m_1c6239c1": {
+    "message": "Vidéo $p1$",
+    "description": "Видео $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_1c657787": {
+    "message": "Toutes les étiquettes",
+    "description": "Все теги"
+  },
+  "m_1c6d0fa1": {
+    "message": "Segment ou manifeste indisponible (HTTP $p1$)",
+    "description": "Сегмент или манифест недоступен (HTTP $1)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_1ca2828d": {
+    "message": "Fichiers importés : $p1$",
+    "description": "Загружено файлов: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_1ca68b35": {
+    "message": "Le blob n’est pas une vidéo",
+    "description": "Blob не является видео"
+  },
+  "m_1d2707a5": {
+    "message": "dossiers",
+    "description": "папки"
+  },
+  "m_1de41323": {
+    "message": "Ouvrir la ressource : $p1$",
+    "description": "Открыть ресурс: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_1de8e5ca": {
+    "message": "Taille : vérification…",
+    "description": "Размер: уточняется…"
+  },
+  "m_1f1b029b": {
+    "message": "Impossible de télécharger : $p1$",
+    "description": "Не удалось загрузить: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_1f7e1cdf": {
+    "message": "Impossible d’assembler la vidéo : codecs incompatibles ou segments corrompus",
+    "description": "Не удалось собрать видео: несовместимые кодеки или повреждённые сегменты"
+  },
+  "m_1ff49ac3": {
+    "message": "Aucun aperçu n’est disponible pour ce fichier.",
+    "description": "Для этого файла нет предпросмотра."
+  },
+  "m_2217c8bf": {
+    "message": "Onglet non valide",
+    "description": "Некорректная вкладка"
+  },
+  "m_22673032": {
+    "message": "Impossible de lire la vidéo : $p1$",
+    "description": "Не удалось прочитать видео: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_22a3d666": {
+    "message": "Autoriser l’accès",
+    "description": "Разрешить доступ"
+  },
+  "m_230eff54": {
+    "message": "Impossible de mettre à jour le compteur de ressources de la nouvelle bibliothèque",
+    "description": "Не удалось обновить счётчик новой библиотеки"
+  },
+  "m_231163e9": {
+    "message": "IV HLS non valide",
+    "description": "Некорректный IV HLS"
+  },
+  "m_23b64977": {
+    "message": "Fermer",
+    "description": "Закрыть"
+  },
+  "m_25f41a5c": {
+    "message": "Aucune ressource ne correspond à ces filtres.",
+    "description": "Ресурсы по заданным условиям не найдены."
+  },
+  "m_260b9dc5": {
+    "message": "Dossiers",
+    "description": "Папки"
+  },
+  "m_2636299b": {
+    "message": "Enregistrement de l’image…",
+    "description": "Сохранение кадра…"
+  },
+  "m_2699ea82": {
+    "message": "Taille : $p1$",
+    "description": "Размер: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_26c340cc": {
+    "message": "Sur le canevas",
+    "description": "На полотне"
+  },
+  "m_2819e7cb": {
+    "message": "Étiquettes du favori",
+    "description": "Теги закладки"
+  },
+  "m_2926115a": {
+    "message": "Impossible de mettre à jour les icônes des onglets",
+    "description": "Не удалось обновить значки вкладок"
+  },
+  "m_29399ab4": {
+    "message": "Impossible de créer une vidéo accélérée",
+    "description": "Не удалось создать таймлапс"
+  },
+  "m_29d1b33c": {
+    "message": "Les téléchargements s’effectuent un par un en arrière-plan. Vous pouvez fermer cette fenêtre.",
+    "description": "Загрузки выполняются по очереди в фоне. Окно можно закрыть."
+  },
+  "m_2b86fe41": {
+    "message": "Développer ou réduire : $p1$",
+    "description": "Развернуть или свернуть: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_2bc570be": {
+    "message": "Le flux contient une URL de segment non valide",
+    "description": "Поток содержит недопустимый адрес сегмента"
+  },
+  "m_2c65acc6": {
+    "message": "Chrome bloque WebAssembly pour cette version de l’extension. Ouvrez chrome://extensions, cliquez sur Actualiser sur la fiche Étagère de favoris, puis fermez et rouvrez la fenêtre ou l’onglet de l’extension.",
+    "description": "Chrome запрещает WebAssembly для этой версии расширения. Откройте chrome://extensions, нажмите «Обновить» на карточке «Полка закладок», затем закройте и заново откройте окно или вкладку расширения."
+  },
+  "m_2cd098ca": {
+    "message": "Bloc de fichier non valide",
+    "description": "Некорректный фрагмент файла"
+  },
+  "m_2dbdc32a": {
+    "message": "Le dossier est enregistré automatiquement. Il contient les fichiers de ressources et le catalogue de métadonnées. L’accès en lecture et en écriture est nécessaire pour ajouter des fichiers et synchroniser les dossiers.",
+    "description": "Папка сохраняется автоматически. В ней хранятся файлы ресурсов и каталог метаданных. Для добавления файлов и синхронизации папок нужен доступ к чтению и записи."
+  },
+  "m_2e6e73f8": {
+    "message": "Le site n’a pas renvoyé le fichier (HTTP $p1$)",
+    "description": "Сайт не отдал файл (HTTP $1)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_2f703267": {
+    "message": "Redimensionner la fenêtre",
+    "description": "Изменить размер окна"
+  },
+  "m_300aaa5a": {
+    "message": "Il reste d’anciennes copies ou d’anciens dossiers : $p1$. La vérification et le nettoyage reprendront à l’ouverture de la bibliothèque.",
+    "description": "Остались старые копии или папки: $1. Проверка и очистка повторяются при открытии библиотеки.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_30c88b73": {
+    "message": "Autorisez l’accès aux domaines des segments et relancez le téléchargement",
+    "description": "Разрешите доступ к доменам сегментов и повторите загрузку"
+  },
+  "m_31d42213": {
+    "message": "Dossier racine des ressources de l’utilisateur de l’extension.",
+    "description": "Корневая папка пользовательских ресурсов расширения."
+  },
+  "m_325c61c9": {
+    "message": "Le flux dépasse la limite de mémoire du gestionnaire de téléchargements ($p1$ Mo)",
+    "description": "Поток превышает лимит памяти загрузчика ($1 МБ)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_340854a9": {
+    "message": "Aucun favori ne correspond au filtre de ressources.",
+    "description": "Нет закладок, соответствующих фильтру ресурсов."
+  },
+  "m_34a6d3a9": {
+    "message": "Importer manuellement",
+    "description": "Загрузить вручную"
+  },
+  "m_34ac477a": {
+    "message": "Enregistrements de fichiers inachevés : $p1$. Vérifiez les ressources du favori et importez à nouveau le fichier si nécessaire.",
+    "description": "Не завершено сохранение файлов: $1. Проверьте ресурсы закладки и при необходимости добавьте файл заново.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_34bdb6b7": {
+    "message": "Choisissez le dossier de ressources partagé dans une fenêtre Chrome normale",
+    "description": "Общая папка ресурсов выбирается в обычном окне Chrome"
+  },
+  "m_36660ddc": {
+    "message": "Jusqu’à 512 Mo.",
+    "description": "До 512 МБ."
+  },
+  "m_3688f15f": {
+    "message": "Impossible de capturer une image de la vidéo",
+    "description": "Не удалось получить кадр видео"
+  },
+  "m_36f26a96": {
+    "message": "Copier le titre du favori",
+    "description": "Копировать название закладки"
+  },
+  "m_379f0245": {
+    "message": "Copier le titre : $p1$",
+    "description": "Копировать название: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_37bfb288": {
+    "message": "Aperçu de $p1$ : $p2$",
+    "description": "$1 превью: $2",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "m_37ca66c1": {
+    "message": "Autoriser l’accès au dossier",
+    "description": "Разрешить доступ к папке"
+  },
+  "m_37fcb999": {
+    "message": "La liste HLS est récursive ou comporte trop de niveaux d’imbrication",
+    "description": "Зацикленный или слишком вложенный HLS-плейлист"
+  },
+  "m_38c86be4": {
+    "message": "Autorisez la lecture et l’écriture dans le dossier de ressources",
+    "description": "Разрешите чтение и запись в папку ресурсов"
+  },
+  "m_39d4f4fe": {
+    "message": "Le gestionnaire de téléchargements en arrière-plan est indisponible",
+    "description": "Фоновый загрузчик недоступен"
+  },
+  "m_3a837edf": {
+    "message": "Ajouté à la collection « $p1$ » : $p2$",
+    "description": "Добавлено в подборку «$1»: $2",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "m_3ad0ee15": {
+    "message": "Réduire le bandeau d’aperçus",
+    "description": "Свернуть ленту превью"
+  },
+  "m_3c0631c3": {
+    "message": "Enregistrer dans un favori",
+    "description": "Сохранить в закладку"
+  },
+  "m_3c477f9c": {
+    "message": "Téléchargement des segments…",
+    "description": "Загрузка сегментов…"
+  },
+  "m_3c76f55d": {
+    "message": "Étagère de favoris · Cette page n’est pas dans les favoris",
+    "description": "Полка закладок · Страница не в закладках"
+  },
+  "m_3ca1775d": {
+    "message": "Parcourir les ressources",
+    "description": "Переключение ресурсов"
+  },
+  "m_3d6a607e": {
+    "message": "Aucun dossier sélectionné",
+    "description": "Папка не выбрана"
+  },
+  "m_3dcc0497": {
+    "message": "Image d’aperçu non valide",
+    "description": "Некорректное изображение превью"
+  },
+  "m_3e7722a4": {
+    "message": "Clé AES-128 non valide",
+    "description": "Некорректный ключ AES-128"
+  },
+  "m_3f8f1e9b": {
+    "message": "Impossible de rétablir l’accès. Choisissez à nouveau le dossier.",
+    "description": "Не удалось восстановить доступ. Выберите папку заново."
+  },
+  "m_3fcce1d3": {
+    "message": "Impossible de relancer le téléchargement : $p1$",
+    "description": "Не удалось повторить загрузку: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_41062d03": {
+    "message": "Cette commande est réservée au gestionnaire de téléchargements en arrière-plan",
+    "description": "Команда доступна только фоновому загрузчику"
+  },
+  "m_4109ffe3": {
+    "message": "L’accès au dossier n’a pas été accordé",
+    "description": "Доступ к папке не предоставлен"
+  },
+  "m_41eb8d3b": {
+    "message": "Afficher",
+    "description": "Показать"
+  },
+  "m_4334244b": {
+    "message": "L’accès au site multimédia n’a pas été accordé",
+    "description": "Доступ к сайту с медиа не предоставлен"
+  },
+  "m_433ec4fd": {
+    "message": "Blob indisponible",
+    "description": "Blob недоступен"
+  },
+  "m_4364e6ed": {
+    "message": "Identifiant de nœud non valide dans le catalogue",
+    "description": "Недопустимый ID узла в каталоге"
+  },
+  "m_43800c4d": {
+    "message": "Ajouter un favori et télécharger",
+    "description": "Добавить закладку и загрузить"
+  },
+  "m_44706f0d": {
+    "message": "Toutes les ressources du favori : $p1$",
+    "description": "Все ресурсы закладки: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_44a979e4": {
+    "message": "0 o",
+    "description": "0 Б"
+  },
+  "m_44c335e3": {
+    "message": "Téléchargement des ressources en arrière-plan",
+    "description": "Фоновая загрузка ресурсов"
+  },
+  "m_44e707a4": {
+    "message": "Dossier sur le disque",
+    "description": "Папка на диске"
+  },
+  "m_45e153c6": {
+    "message": "Aperçu : $p1$",
+    "description": "Превью: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_45fb9cf1": {
+    "message": "Requête de blob non valide",
+    "description": "Некорректный запрос blob"
+  },
+  "m_47135fa0": {
+    "message": "Ressources trouvées : $p1$",
+    "description": "Найдено ресурсов: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_48892b9a": {
+    "message": "Jusqu’à 512 Mo. Pour les diffusions en direct, l’extrait disponible.",
+    "description": "До 512 МБ. Для эфира — доступный фрагмент."
+  },
+  "m_48cdaad7": {
+    "message": "Étiquettes enregistrées",
+    "description": "Теги сохранены"
+  },
+  "m_49e4bd07": {
+    "message": "Le dossier de préparation des aperçus est indisponible",
+    "description": "Папка подготовки превью недоступна"
+  },
+  "m_4aa0141c": {
+    "message": "Aucune collection pour le moment",
+    "description": "Подборок пока нет"
+  },
+  "m_4c35bc25": {
+    "message": "Expéditeur non valide",
+    "description": "Недопустимый отправитель"
+  },
+  "m_4e9a7acd": {
+    "message": "Revenir aux favoris",
+    "description": "Назад к закладкам"
+  },
+  "m_4f022672": {
+    "message": "Ressources",
+    "description": "Ресурсы"
+  },
+  "m_4fb45138": {
+    "message": "Ressource introuvable ou téléchargement incomplet",
+    "description": "Ресурс не найден или загрузка не завершена"
+  },
+  "m_51989e8b": {
+    "message": "Ouvrez une page web ordinaire et cliquez sur l’icône de l’extension",
+    "description": "Откройте обычную веб-страницу и нажмите значок расширения"
+  },
+  "m_51ca5970": {
+    "message": "Impossible de lire une image de la vidéo accélérée",
+    "description": "Не удалось прочитать кадр таймлапса"
+  },
+  "m_520d0662": {
+    "message": "Sélectionnez une ressource sur la page, puis rouvrez l’extension. Échap pour annuler.",
+    "description": "Выберите ресурс на странице и снова откройте расширение. Esc — отмена."
+  },
+  "m_5266ece1": {
+    "message": "Enregistrer dans la bibliothèque « $p1$ ».",
+    "description": "Сохранять в библиотеку «$1».",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_52cb008f": {
+    "message": "Ajouter la sélection à une collection… ($p1$)",
+    "description": "Добавить выбранные в подборку… ($1)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_553650fd": {
+    "message": "Une collection portant ce nom existe déjà",
+    "description": "Подборка с таким названием уже существует"
+  },
+  "m_558f312a": {
+    "message": "Faire défiler verticalement",
+    "description": "Прокрутка по вертикали"
+  },
+  "m_564c7a42": {
+    "message": "Impossible d’enregistrer l’aperçu : $p1$",
+    "description": "Не удалось сохранить превью: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_571de7f2": {
+    "message": "Favoris, bibliothèque locale de fichiers, étiquettes, collections et canevas pour afficher des images et des vidéos.",
+    "description": "Закладки, локальная библиотека файлов, теги, подборки и полотно для просмотра изображений и видео."
+  },
+  "m_57aa4dc8": {
+    "message": "Trop de représentations DASH",
+    "description": "Слишком много представлений DASH"
+  },
+  "m_57c3c9e7": {
+    "message": "$p1$ sur $p2$",
+    "description": "$1 из $2",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "m_582a12ed": {
+    "message": "SegmentTimeline de DASH est trop grand ou sans limite",
+    "description": "Слишком большой или неограниченный SegmentTimeline DASH"
+  },
+  "m_592d18bd": {
+    "message": "Le dossier de la tâche est indisponible",
+    "description": "Папка задачи недоступна"
+  },
+  "m_5a824cbc": {
+    "message": "Commande de téléchargement inconnue",
+    "description": "Неизвестная команда загрузчика"
+  },
+  "m_5a9cc583": {
+    "message": "L’URL du cadre a changé. Actualisez la liste des ressources.",
+    "description": "Адрес фрейма изменился. Обновите список ресурсов."
+  },
+  "m_5aa08a7d": {
+    "message": "L’URL du cadre a changé",
+    "description": "Адрес фрейма изменился"
+  },
+  "m_5abe9504": {
+    "message": "Valeur $p1$ non valide dans DASH",
+    "description": "Некорректное число $1 в DASH",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_5b6f0935": {
+    "message": "Importation arrêtée : $p1$. Les fichiers déjà enregistrés resteront dans la liste.",
+    "description": "Загрузка остановлена: $1. Уже сохранённые файлы останутся в списке.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_5cdc6e97": {
+    "message": "Actualiser",
+    "description": "Обновить"
+  },
+  "m_5ce7c9f2": {
+    "message": "Aucun téléchargement en cours",
+    "description": "Активных загрузок нет"
+  },
+  "m_5df93547": {
+    "message": "Ressource retirée de la collection",
+    "description": "Ресурс убран из подборки"
+  },
+  "m_5e14c757": {
+    "message": "Vidéo sélectionnée",
+    "description": "Выбранное видео"
+  },
+  "m_5e39ef7b": {
+    "message": "Collections",
+    "description": "Подборки"
+  },
+  "m_5ef748a7": {
+    "message": "Afficher",
+    "description": "Просмотр"
+  },
+  "m_601766f8": {
+    "message": "Lire",
+    "description": "Воспроизвести"
+  },
+  "m_60363aee": {
+    "message": "taille inconnue",
+    "description": "размер неизвестен"
+  },
+  "m_60e7573d": {
+    "message": "URL directe du fichier",
+    "description": "Прямая ссылка на файл"
+  },
+  "m_61a6f4e3": {
+    "message": "Chemin de ressource non valide dans le catalogue",
+    "description": "Недопустимый путь ресурса в каталоге"
+  },
+  "m_61d002d1": {
+    "message": "Téléchargement en arrière-plan…",
+    "description": "Загрузка в фоне…"
+  },
+  "m_6220fc25": {
+    "message": "Colonne à droite",
+    "description": "Колонка справа"
+  },
+  "m_62734d73": {
+    "message": "Le dossier parent est absent du catalogue",
+    "description": "Отсутствует родитель папки в каталоге"
+  },
+  "m_641c3535": {
+    "message": "Nom",
+    "description": "Название"
+  },
+  "m_648fd034": {
+    "message": "Le téléchargement a été interrompu à la fermeture du navigateur ou au redémarrage de l’extension.",
+    "description": "Загрузка прервана при закрытии браузера или перезапуске расширения."
+  },
+  "m_65401dd1": {
+    "message": "Impossible d’ouvrir l’importation : $p1$",
+    "description": "Не удалось открыть загрузку: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_67301beb": {
+    "message": "Téléchargement : 1 · En attente : $p1$",
+    "description": "Загружается: 1 · В очереди: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_67d35d42": {
+    "message": "La chronologie DASH est trop grande",
+    "description": "Слишком большая временная шкала DASH"
+  },
+  "m_6805654a": {
+    "message": "Canevas des ressources",
+    "description": "Полотно ресурсов"
+  },
+  "m_6812aec5": {
+    "message": "Rechercher des ressources",
+    "description": "Поиск ресурсов"
+  },
+  "m_68479082": {
+    "message": "Le téléchargement de vidéos YouTube n’est pas pris en charge. Seuls les aperçus intégrés sont disponibles.",
+    "description": "Загрузка видео YouTube не поддерживается. Доступно только встроенное превью."
+  },
+  "m_68ff0e79": {
+    "message": "La sélection de dossiers est indisponible. Ouvrez les paramètres dans un onglet Chrome séparé.",
+    "description": "Выбор папки недоступен. Откройте настройки в отдельной вкладке Chrome."
+  },
+  "m_69b8745b": {
+    "message": "Recherche de vidéos et d’images…",
+    "description": "Ищем видео и изображения…"
+  },
+  "m_69eb57db": {
+    "message": "Sélectionnés : $p1$",
+    "description": "Выбрано: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_6a1a0d51": {
+    "message": "Le fichier est absent ou sa taille a changé sur le disque",
+    "description": "Файл отсутствует или его размер изменён на диске"
+  },
+  "m_6a59a355": {
+    "message": "Le flux contient trop de segments pour être téléchargé dans le navigateur",
+    "description": "В потоке слишком много сегментов для загрузки в браузере"
+  },
+  "m_6a89198e": {
+    "message": "Sans titre",
+    "description": "Без названия"
+  },
+  "m_6a978fb2": {
+    "message": "Choisissez d’abord un dossier de ressources dans les paramètres",
+    "description": "Сначала выберите папку ресурсов в настройках"
+  },
+  "m_6a9f410d": {
+    "message": "Nouvelle collection",
+    "description": "Новая подборка"
+  },
+  "m_6c4fdbf9": {
+    "message": "Impossible de mettre à jour le compteur de ressources sur l’icône",
+    "description": "Не удалось обновить счётчик ресурсов на значке"
+  },
+  "m_6e9c4991": {
+    "message": "Cette collection ne contient pas encore de ressources. Ajoutez-en depuis le menu contextuel d’une ressource.",
+    "description": "В этой подборке пока нет ресурсов. Добавьте их через контекстное меню ресурса."
+  },
+  "m_6ec8c781": {
+    "message": "Télécharger le fichier",
+    "description": "Скачать файл"
+  },
+  "m_6f1b1b4c": {
+    "message": "L’aperçu doit être une image JPEG",
+    "description": "Превью должно быть изображением JPEG"
+  },
+  "m_6f20dc70": {
+    "message": "Aucune ressource pour le moment. Dans Favoris, utilisez le bouton en forme de trombone pour ajouter des fichiers.",
+    "description": "Здесь пока нет ресурсов. В режиме «Закладки» добавьте файлы через кнопку со скрепкой."
+  },
+  "m_6fdc635e": {
+    "message": "Impossible de vider la file d’attente : $p1$",
+    "description": "Не удалось очистить очередь: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_700d7c53": {
+    "message": "Pointez sur une ressource et cliquez · Échap pour annuler. Rouvrez ensuite l’extension.",
+    "description": "Наведите на ресурс и нажмите · Esc — отмена. Затем откройте расширение."
+  },
+  "m_705a655b": {
+    "message": "Ajouté à la collection « $p1$ »",
+    "description": "Добавлено в подборку «$1»",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_70ac2162": {
+    "message": "Le site a renvoyé un autre type de fichier au lieu d’un média. Vous devez peut-être vous connecter, ou l’URL directe est indisponible.",
+    "description": "Вместо медиа сайт вернул другой тип файла. Возможно, требуется авторизация или прямая ссылка недоступна."
+  },
+  "m_728c494e": {
+    "message": "Choisissez les fichiers à importer",
+    "description": "Выберите файлы для загрузки"
+  },
+  "m_7376a683": {
+    "message": "Favoris ($p1$)",
+    "description": "Закладки ($1)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_74a27647": {
+    "message": "Aperçu indisponible",
+    "description": "Превью недоступно"
+  },
+  "m_74f04016": {
+    "message": "Collection renommée en « $p1$ »",
+    "description": "Подборка переименована в «$1»",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_7527d6f9": {
+    "message": "Chemin de dossier non valide dans le catalogue",
+    "description": "Недопустимый путь папки в каталоге"
+  },
+  "m_758b5e90": {
+    "message": "Choisissez un dossier de ressources dans les paramètres",
+    "description": "Выберите папку ресурсов в настройках"
+  },
+  "m_75ac5a5d": {
+    "message": "Intervertir",
+    "description": "Поменять местами"
+  },
+  "m_75bd48bf": {
+    "message": "Aucun aperçu",
+    "description": "Нет превью"
+  },
+  "m_761f808d": {
+    "message": "Impossible de charger le dossier",
+    "description": "Не удалось загрузить папку"
+  },
+  "m_76fd0888": {
+    "message": "Ce type de lien n’est pas pris en charge",
+    "description": "Этот тип ссылки не поддерживается"
+  },
+  "m_776a17af": {
+    "message": "Le dossier de ressources a changé. Rouvrez la fenêtre de l’extension.",
+    "description": "Папка ресурсов изменена. Заново откройте окно расширения."
+  },
+  "m_77a53766": {
+    "message": "Retirer de la collection",
+    "description": "Убрать из подборки"
+  },
+  "m_7894f3bc": {
+    "message": "Aucun dossier de ressources sélectionné",
+    "description": "Папка ресурсов не выбрана"
+  },
+  "m_79a0ecbe": {
+    "message": "Ouvrir dans un onglet séparé",
+    "description": "Открыть в отдельной вкладке"
+  },
+  "m_79d72f12": {
+    "message": "La tâche n’attend plus d’autorisation",
+    "description": "Задача больше не ожидает разрешения"
+  },
+  "m_7a117a9e": {
+    "message": "Retirés de la collection : $p1$",
+    "description": "Убрано из подборки: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_7ae6bed9": {
+    "message": "Afficher l’en-tête",
+    "description": "Показать шапку"
+  },
+  "m_7c24ef82": {
+    "message": "Collection « $p1$ » supprimée",
+    "description": "Подборка «$1» удалена",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_7c35a637": {
+    "message": "URL de vidéo YouTube non valide",
+    "description": "Некорректный адрес видео YouTube"
+  },
+  "m_7d3de1cb": {
+    "message": "Réduire les dossiers",
+    "description": "Свернуть папки"
+  },
+  "m_7da16523": {
+    "message": "L’enregistrement du dossier a été annulé",
+    "description": "Сохранение папки отменено"
+  },
+  "m_7dc654af": {
+    "message": "Retirer du canevas",
+    "description": "Убрать с полотна"
+  },
+  "m_7ec7d37c": {
+    "message": "Revenir à l’onglet actuel",
+    "description": "Назад к текущей вкладке"
+  },
+  "m_7f436946": {
+    "message": "Impossible de décoder la vidéo",
+    "description": "Не удалось декодировать видео"
+  },
+  "m_802eadc1": {
+    "message": "Chargement des favoris…",
+    "description": "Загружаем закладки…"
+  },
+  "m_8081310f": {
+    "message": "Ressources : $p1$",
+    "description": "Ресурсы: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_8255c2f3": {
+    "message": "Réduire l’en-tête",
+    "description": "Свернуть шапку"
+  },
+  "m_8324b360": {
+    "message": "Sélectionner la ressource : $p1$",
+    "description": "Выбрать ресурс: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_834e3e5d": {
+    "message": "Durée DASH non valide",
+    "description": "Некорректная длительность DASH"
+  },
+  "m_83cf681b": {
+    "message": "Impossible d’enregistrer l’état de la fenêtre",
+    "description": "Не удалось сохранить состояние окна"
+  },
+  "m_8497ca4c": {
+    "message": "Ressources : $p1$",
+    "description": "Ресурсов: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_8541984d": {
+    "message": "en-tête",
+    "description": "шапку"
+  },
+  "m_85bff097": {
+    "message": "Dossiers de favoris",
+    "description": "Папки закладок"
+  },
+  "m_864805a0": {
+    "message": "Image la plus grande",
+    "description": "Самое крупное изображение"
+  },
+  "m_881e89e1": {
+    "message": "Mode d’affichage des ressources",
+    "description": "Вид отображения ресурсов"
+  },
+  "m_892474e6": {
+    "message": "Télécharger $p1$",
+    "description": "Скачать $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_89a200c5": {
+    "message": "Rechercher des favoris",
+    "description": "Поиск закладок"
+  },
+  "m_8a3fc2e1": {
+    "message": "Largeur de la liste des dossiers",
+    "description": "Ширина списка папок"
+  },
+  "m_8a4e74ca": {
+    "message": "Collection non valide",
+    "description": "Некорректная подборка"
+  },
+  "m_8b361ef4": {
+    "message": "Aucune piste vidéo trouvée dans DASH",
+    "description": "В DASH не найдена видеодорожка"
+  },
+  "m_8b5a0a36": {
+    "message": "Le contexte normal de l’extension n’a pas répondu. Rechargez l’extension dans Chrome.",
+    "description": "Обычная часть расширения не ответила. Перезагрузите расширение в Chrome."
+  },
+  "m_8bb1a06b": {
+    "message": "Masquer le message de la bibliothèque",
+    "description": "Скрыть сообщение библиотеки"
+  },
+  "m_8ca7bbe4": {
+    "message": "Sans ressources",
+    "description": "Без ресурсов"
+  },
+  "m_8d844d95": {
+    "message": "Impossible de vérifier la ressource déplacée",
+    "description": "Не удалось проверить перенесённый ресурс"
+  },
+  "m_8dfa71a5": {
+    "message": "Étagère de favoris",
+    "description": "Полка закладок"
+  },
+  "m_8e2c5587": {
+    "message": "Télécharger",
+    "description": "Загрузить"
+  },
+  "m_8ec30523": {
+    "message": "Impossible de préparer l’aperçu de la vidéo",
+    "description": "Не удалось подготовить превью видео"
+  },
+  "m_8f263e0d": {
+    "message": "Rétablissez l’accès au dossier dans une fenêtre Chrome normale.",
+    "description": "Восстановите доступ к папке в обычном окне Chrome."
+  },
+  "m_90506d67": {
+    "message": "Filtrer les favoris par ressources",
+    "description": "Фильтр закладок по ресурсам"
+  },
+  "m_91681b7a": {
+    "message": " · extrait du direct",
+    "description": " · фрагмент эфира"
+  },
+  "m_91ad9160": {
+    "message": "Largeur des colonnes",
+    "description": "Ширина колонок"
+  },
+  "m_91dc33c1": {
+    "message": "Arborescence des dossiers",
+    "description": "Дерево папок"
+  },
+  "m_92069bc1": {
+    "message": "Saisissez un nom de collection de 1 à 100 caractères",
+    "description": "Введите название подборки от 1 до 100 символов"
+  },
+  "m_920ed442": {
+    "message": "Saisissez une URL HTTP ou HTTPS directe du fichier.",
+    "description": "Укажите прямую ссылку HTTP или HTTPS на файл."
+  },
+  "m_9222a9fd": {
+    "message": "La vidéo accélérée dépasse la taille maximale du cache",
+    "description": "Таймлапс превышает допустимый размер кеша"
+  },
+  "m_92485cc0": {
+    "message": "Faire défiler horizontalement",
+    "description": "Прокрутка по горизонтали"
+  },
+  "m_928aadd4": {
+    "message": "Paramètres du dossier",
+    "description": "Настройки папки"
+  },
+  "m_9345c340": {
+    "message": "Aucune URL directe du fichier n’est disponible pour cette vidéo",
+    "description": "У этого видео нет доступной прямой ссылки на файл"
+  },
+  "m_93b68695": {
+    "message": "L’aperçu ouvre le lecteur YouTube. Google reçoit votre adresse IP, les paramètres de la requête et l’identifiant de l’extension. Le téléchargement de vidéos n’est pas disponible.",
+    "description": "Превью откроет плеер YouTube. Google получит IP-адрес, параметры запроса и идентификатор расширения. Загрузка видео недоступна."
+  },
+  "m_93d29d56": {
+    "message": "Le catalogue est absent ou vide, mais des dossiers de ressources existent. Restaurez le catalogue depuis une sauvegarde.",
+    "description": "Каталог отсутствует или пуст, но папки ресурсов существуют. Восстановите каталог из резервной копии."
+  },
+  "m_941a375a": {
+    "message": "Renommer",
+    "description": "Переименовать"
+  },
+  "m_95791d1e": {
+    "message": "Création d’un dossier : $p1$",
+    "description": "Создание папки: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_96c20461": {
+    "message": "Téléchargements",
+    "description": "Загрузки"
+  },
+  "m_96d831f3": {
+    "message": "Le segment est plus court que la plage d’octets demandée",
+    "description": "Сегмент короче запрошенного byte range"
+  },
+  "m_97105c7e": {
+    "message": "Impossible de lire les médias de la page : $p1$. Les pages internes de Chrome et certains sites ne peuvent pas être lus.",
+    "description": "Не удалось прочитать медиа страницы: $1. На служебных страницах Chrome и некоторых сайтах чтение недоступно.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_97693ae6": {
+    "message": "Fusion de la vidéo et de l’audio…",
+    "description": "Объединение видео и звука…"
+  },
+  "m_97784a07": {
+    "message": "Seules les vidéos peuvent avoir un aperçu personnalisé",
+    "description": "Превью можно установить только для видео"
+  },
+  "m_979d8bde": {
+    "message": "Ouvrir la ressource",
+    "description": "Открыть ресурс"
+  },
+  "m_98aeeffb": {
+    "message": "Autres ressources : $p1$",
+    "description": "Ещё ресурсов: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_9a373ca7": {
+    "message": "La source n’est pas disponible au téléchargement",
+    "description": "Источник недоступен для загрузки"
+  },
+  "m_9a94ea8f": {
+    "message": "Revenir à l’onglet",
+    "description": "Назад к вкладке"
+  },
+  "m_9b03ac82": {
+    "message": "Fermer les ressources",
+    "description": "Закрыть ресурсы"
+  },
+  "m_9b19cf01": {
+    "message": "Autoriser l’accès et lire",
+    "description": "Разрешить доступ и воспроизвести"
+  },
+  "m_9ba76151": {
+    "message": "Le fichier dépasse la limite de taille de $p1$",
+    "description": "Размер файла превышает лимит $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_9c4134ed": {
+    "message": "Ressources : $p1$, $p2$",
+    "description": "Ресурсы: $1, $2",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "m_9c952fc0": {
+    "message": "Fichiers de ressources non valides",
+    "description": "Некорректные файлы ресурсов"
+  },
+  "m_9ce866a1": {
+    "message": "Rechercher dans les lecteurs intégrés",
+    "description": "Искать во встроенных плеерах"
+  },
+  "m_9d875db7": {
+    "message": "Fermer la visionneuse",
+    "description": "Закрыть просмотр"
+  },
+  "m_9e04c68b": {
+    "message": "Préparation de l’aperçu…",
+    "description": "Подготовка превью…"
+  },
+  "m_9e1d6712": {
+    "message": "Accès nécessaire",
+    "description": "Нужен доступ"
+  },
+  "m_9ebd7b89": {
+    "message": "Go",
+    "description": "ГБ"
+  },
+  "m_9f10b6f2": {
+    "message": "Autorisez l’accès aux sites des lecteurs intégrés pour trouver leurs vidéos.",
+    "description": "Для поиска видео во встроенных плеерах разрешите доступ к их сайтам."
+  },
+  "m_9f4a5dcf": {
+    "message": "La page a renvoyé une liste de médias non valide",
+    "description": "Страница вернула некорректный список медиа"
+  },
+  "m_9fae1e00": {
+    "message": "Le cadre n’a renvoyé aucune donnée vidéo. La source a peut-être été fermée ou modifiée",
+    "description": "Фрейм не вернул данные видео. Источник мог быть закрыт или изменён"
+  },
+  "m_a0c1ea86": {
+    "message": "Bibliothèque partagée indisponible",
+    "description": "Общая библиотека недоступна"
+  },
+  "m_a0d91cb2": {
+    "message": "Ressources indisponibles : $p1$",
+    "description": "Ресурсы недоступны: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_a124dc27": {
+    "message": "Le flux ne contient aucun segment. Réessayez de le télécharger plus tard.",
+    "description": "В потоке отсутствуют сегменты. Повторите загрузку позднее."
+  },
+  "m_a14050b7": {
+    "message": "L’assembleur a renvoyé un fichier vidéo vide",
+    "description": "Сборщик вернул пустой видеофайл"
+  },
+  "m_a14daa4f": {
+    "message": "Sélectionner sur la page",
+    "description": "Выбрать на странице"
+  },
+  "m_a1567e36": {
+    "message": " · Téléchargement incomplet",
+    "description": " · Загрузка не завершена"
+  },
+  "m_a16f2263": {
+    "message": "Plage d’octets du flux non valide",
+    "description": "Некорректный byte range потока"
+  },
+  "m_a1703c95": {
+    "message": "Bibliothèque partagée du mode normal. La lecture et l’écriture sont autorisées.",
+    "description": "Общая библиотека из обычного режима. Чтение и запись разрешены."
+  },
+  "m_a32c2ece": {
+    "message": "Résultats de recherche",
+    "description": "Результаты поиска"
+  },
+  "m_a479ec92": {
+    "message": "+ Ajouter une collection",
+    "description": "+ Добавить новую подборку"
+  },
+  "m_a52d7217": {
+    "message": "Favoris",
+    "description": "Закладки"
+  },
+  "m_a675a194": {
+    "message": "Ce dossier de ressources est lié à un autre profil Chrome",
+    "description": "Эта папка ресурсов связана с другим профилем Chrome"
+  },
+  "m_a6a070b9": {
+    "message": "Ce dossier ne contient pas encore de favoris.",
+    "description": "В этой папке пока нет закладок."
+  },
+  "m_a70bd38c": {
+    "message": "Tâche de téléchargement non valide",
+    "description": "Некорректная задача загрузки"
+  },
+  "m_a7962917": {
+    "message": "Le flux utilise DRM/SAMPLE-AES. Les flux non chiffrés et AES-128 sont pris en charge.",
+    "description": "Поток использует DRM/SAMPLE-AES. Поддерживаются открытые потоки и AES-128."
+  },
+  "m_a844328e": {
+    "message": "Toutes les ressources",
+    "description": "Все ресурсы"
+  },
+  "m_a876c0ad": {
+    "message": "$p1$ · Ressources : $p2$",
+    "description": "$1 · Ресурсов: $2",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "m_a9c38732": {
+    "message": "Taille du bloc de ressource incorrecte",
+    "description": "Неверный размер фрагмента ресурса"
+  },
+  "m_a9fed5d8": {
+    "message": "Réessayer",
+    "description": "Повторить"
+  },
+  "m_aa26ed3d": {
+    "message": "Chargement…",
+    "description": "Загрузка…"
+  },
+  "m_aadf9a86": {
+    "message": "Titre copié",
+    "description": "Название скопировано"
+  },
+  "m_ac07bcf3": {
+    "message": "Le favori a été supprimé ou correspond à un dossier",
+    "description": "Закладка удалена или является папкой"
+  },
+  "m_adfd0828": {
+    "message": "▶ Vidéo",
+    "description": "▶ Видео"
+  },
+  "m_ae2722fd": {
+    "message": "Le catalogue de ressources est corrompu",
+    "description": "Каталог ресурсов повреждён"
+  },
+  "m_ae2779bf": {
+    "message": "Source multimédia non valide",
+    "description": "Некорректный источник медиа"
+  },
+  "m_ae5a6031": {
+    "message": "L’accès aux lecteurs intégrés n’a pas été accordé.",
+    "description": "Доступ к встроенным плеерам не предоставлен."
+  },
+  "m_af249c5d": {
+    "message": "Télécharger depuis une URL",
+    "description": "Загрузить по ссылке"
+  },
+  "m_af4b5066": {
+    "message": "Enregistrement dans la bibliothèque…",
+    "description": "Сохранение в библиотеку…"
+  },
+  "m_af6f6c4f": {
+    "message": "L’accès au site de la vidéo n’a pas été accordé",
+    "description": "Доступ к сайту с видео не предоставлен"
+  },
+  "m_af92ddf9": {
+    "message": "Le modèle DASH est trop long",
+    "description": "Слишком длинный шаблон DASH"
+  },
+  "m_b0036cc9": {
+    "message": "L’accès aux domaines du flux est nécessaire pour les aperçus.",
+    "description": "Для превью нужен доступ к доменам потока."
+  },
+  "m_b02ecdce": {
+    "message": "Taille inconnue",
+    "description": "Размер неизвестен"
+  },
+  "m_b0942873": {
+    "message": "Impossible d’enregistrer le canevas : $p1$",
+    "description": "Не удалось сохранить полотно: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_b0a26fcb": {
+    "message": "Annuler",
+    "description": "Отмена"
+  },
+  "m_b0d1c691": {
+    "message": "La source vidéo est indisponible. Lancez la lecture et actualisez la liste.",
+    "description": "Источник видео недоступен. Запустите плеер и обновите список."
+  },
+  "m_b1126025": {
+    "message": "Masquer le message",
+    "description": "Скрыть сообщение"
+  },
+  "m_b2132485": {
+    "message": "Paramètres · Étagère de favoris",
+    "description": "Настройки · Полка закладок"
+  },
+  "m_b24a8522": {
+    "message": "L’accès en lecture et en écriture au dossier sélectionné est nécessaire pour ajouter des ressources.",
+    "description": "Для добавления ресурсов нужен доступ к чтению и записи выбранной папки."
+  },
+  "m_b3066fa1": {
+    "message": "Impossible de lancer la préparation des aperçus en arrière-plan",
+    "description": "Не удалось запустить фоновую подготовку превью"
+  },
+  "m_b38eb9eb": {
+    "message": "Sélectionnez entre 1 et 10000 ressources",
+    "description": "Выберите от 1 до 10000 ресурсов"
+  },
+  "m_b3f19061": {
+    "message": "Fichier",
+    "description": "Файл"
+  },
+  "m_b4a10700": {
+    "message": "En attente",
+    "description": "В очереди"
+  },
+  "m_b4dda807": {
+    "message": "Indiquez un favori et une URL HTTP ou HTTPS directe du fichier",
+    "description": "Укажите закладку и прямую ссылку HTTP или HTTPS на файл"
+  },
+  "m_b4e0b7a8": {
+    "message": "Paramètres de l’extension",
+    "description": "Настройки расширения"
+  },
+  "m_b5451093": {
+    "message": "Tous les favoris",
+    "description": "Все закладки"
+  },
+  "m_b56ff239": {
+    "message": "Étiquette",
+    "description": "Тег"
+  },
+  "m_b5d4d35f": {
+    "message": "Chargement des ressources…",
+    "description": "Загрузка ресурсов…"
+  },
+  "m_b7d3af4d": {
+    "message": "Impossible d’afficher le fichier. Le navigateur ne prend peut-être pas en charge son format ou son codec.",
+    "description": "Не удалось показать файл. Возможно, формат или кодек не поддерживается браузером."
+  },
+  "m_b966191a": {
+    "message": "Effacer la sélection",
+    "description": "Снять выбор"
+  },
+  "m_b97bef82": {
+    "message": "Utiliser l’image comme aperçu",
+    "description": "Сделать кадр превью"
+  },
+  "m_b992bfa3": {
+    "message": "Ce favori n’a pas encore de ressources.",
+    "description": "У этой закладки пока нет ресурсов."
+  },
+  "m_ba790687": {
+    "message": "Impossible de copier. Sélectionnez le titre et appuyez sur Ctrl+C.",
+    "description": "Не удалось скопировать. Выделите название и нажмите Ctrl+C."
+  },
+  "m_ba810823": {
+    "message": "Liste des vidéos pour les aperçus non valide",
+    "description": "Некорректный список видео для превью"
+  },
+  "m_bab88532": {
+    "message": "Cette vidéo est déjà dans la file d’attente",
+    "description": "Это видео уже добавлено в очередь"
+  },
+  "m_bb02e03c": {
+    "message": "Ressources de l’extension",
+    "description": "Ресурсы расширения"
+  },
+  "m_bb98e1ce": {
+    "message": "Le segment d’initialisation HLS chiffré ne contient pas d’IV",
+    "description": "Зашифрованный init-сегмент HLS не содержит IV"
+  },
+  "m_bc144cb4": {
+    "message": "Aucun média trouvé dans cet élément ni dans ses éléments parents. Choisissez un autre élément · Échap pour annuler",
+    "description": "В элементе и его родителях медиа не найдено. Выберите другой элемент · Esc — отмена"
+  },
+  "m_bda33199": {
+    "message": "L’accès n’a pas été accordé. Autorisez l’écriture pour ajouter des ressources.",
+    "description": "Доступ не предоставлен. Разрешите запись, чтобы добавлять ресурсы."
+  },
+  "m_be2b1b2c": {
+    "message": "Le dossier de ressources a changé dans la fenêtre normale. Actualisez la liste des ressources.",
+    "description": "Папка ресурсов изменена в обычном окне. Обновите список ресурсов."
+  },
+  "m_be70c165": {
+    "message": "Impossible de lire les paramètres. Vous pouvez choisir à nouveau le dossier.",
+    "description": "Не удалось прочитать настройки. Можно выбрать папку заново."
+  },
+  "m_bf13f8cd": {
+    "message": "Éléments : $p1$",
+    "description": "Элементов: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_c0475cfa": {
+    "message": "Ressources et étiquettes du favori",
+    "description": "Ресурсы и теги закладки"
+  },
+  "m_c0535b4a": {
+    "message": "Impossible de déterminer la durée de la vidéo",
+    "description": "Не удалось определить длительность видео"
+  },
+  "m_c091fe26": {
+    "message": "Impossible de lire certains cadres. Actualisez la page et relancez la recherche.",
+    "description": "Не удалось прочитать часть фреймов. Обновите страницу и повторите поиск."
+  },
+  "m_c11c9380": {
+    "message": "Impossible de lire la vidéo. La source ou le codec est indisponible.",
+    "description": "Не удалось воспроизвести видео. Источник или кодек недоступен."
+  },
+  "m_c1521efc": {
+    "message": "Ligne au-dessus",
+    "description": "Строка сверху"
+  },
+  "m_c19431da": {
+    "message": "Le dossier de ressources a changé dans les paramètres. Fermez et rouvrez les ressources du favori.",
+    "description": "Папка ресурсов изменена в настройках. Закройте и заново откройте ресурсы закладки."
+  },
+  "m_c425a181": {
+    "message": "Aucun résultat. Essayez un autre titre ou une autre adresse.",
+    "description": "Ничего не найдено. Попробуйте другое название или адрес."
+  },
+  "m_c4edc784": {
+    "message": "Les relations du catalogue de ressources sont rompues",
+    "description": "Нарушены связи в каталоге ресурсов"
+  },
+  "m_c511754b": {
+    "message": "Tout sélectionner",
+    "description": "Выбрать все"
+  },
+  "m_c54c859d": {
+    "message": "Lecture de la liste de lecture…",
+    "description": "Чтение плейлиста…"
+  },
+  "m_c675dd32": {
+    "message": "Aucune vidéo ni image trouvée sur la page.",
+    "description": "Видео и изображения на странице не найдены."
+  },
+  "m_c6955c3a": {
+    "message": "Ressources de la page",
+    "description": "Ресурсы со страницы"
+  },
+  "m_c729b8b5": {
+    "message": "Réessayer le chargement",
+    "description": "Повторить загрузку"
+  },
+  "m_c75eba9f": {
+    "message": "Numéro de segment HLS non valide",
+    "description": "Некорректный номер сегмента HLS"
+  },
+  "m_c866251a": {
+    "message": "Choisissez un dossier de ressources dans les paramètres.",
+    "description": "Выберите папку ресурсов в настройках."
+  },
+  "m_c8e38fdb": {
+    "message": "Afficher le bandeau d’aperçus",
+    "description": "Показать ленту превью"
+  },
+  "m_c93a61c2": {
+    "message": "La ressource n’est pas une vidéo",
+    "description": "Ресурс не является видео"
+  },
+  "m_caac79aa": {
+    "message": "L’URL de l’onglet a changé. Actualisez la liste des ressources.",
+    "description": "Адрес вкладки изменился. Обновите список ресурсов."
+  },
+  "m_ccabc714": {
+    "message": "Grand",
+    "description": "Крупный"
+  },
+  "m_cd0d59a9": {
+    "message": "Démarrage du téléchargement en arrière-plan…",
+    "description": "Запуск фоновой загрузки…"
+  },
+  "m_cd72f57a": {
+    "message": "Supprimer la collection",
+    "description": "Удалить подборку"
+  },
+  "m_cd89d2f2": {
+    "message": "Impossible de lancer la sélection",
+    "description": "Не удалось включить выбор"
+  },
+  "m_cda766d9": {
+    "message": "Tous les dossiers",
+    "description": "Все папки"
+  },
+  "m_cdead55e": {
+    "message": "Hauteur des lignes",
+    "description": "Высота строк"
+  },
+  "m_ce1905b5": {
+    "message": "Transfert de ressource incomplet",
+    "description": "Передача ресурса не завершена"
+  },
+  "m_ceeb108f": {
+    "message": "Changer de dossier",
+    "description": "Изменить папку"
+  },
+  "m_cf45fd24": {
+    "message": "Impossible de lire l’état de la fenêtre",
+    "description": "Не удалось прочитать состояние окна"
+  },
+  "m_cf6249a9": {
+    "message": "Afficher les dossiers",
+    "description": "Показать папки"
+  },
+  "m_cf87bee0": {
+    "message": "Autorisez l’accès au dossier de ressources",
+    "description": "Разрешите доступ к папке ресурсов"
+  },
+  "m_d08e9137": {
+    "message": "Impossible de créer un aperçu vidéo",
+    "description": "Не удалось создать превью видео"
+  },
+  "m_d10f36a7": {
+    "message": "Télécharger",
+    "description": "Скачать"
+  },
+  "m_d1549338": {
+    "message": "Le transfert du fichier a été interrompu. Réessayez.",
+    "description": "Передача файла прервана. Повторите действие."
+  },
+  "m_d1776323": {
+    "message": "Cycle de dossiers dans le catalogue",
+    "description": "Цикл папок в каталоге"
+  },
+  "m_d2b048aa": {
+    "message": "La sélection de ressources n’est pas disponible sur cette page",
+    "description": "На этой странице выбор ресурсов недоступен"
+  },
+  "m_d34ba78d": {
+    "message": "Opération de bibliothèque inconnue",
+    "description": "Неизвестная операция библиотеки"
+  },
+  "m_d385f70f": {
+    "message": "Ajout du téléchargement à la file d’attente…",
+    "description": "Добавляем загрузку в очередь…"
+  },
+  "m_d389b18b": {
+    "message": "Le gestionnaire de téléchargements en arrière-plan n’a pas répondu",
+    "description": "Фоновый загрузчик не ответил"
+  },
+  "m_d3fec00d": {
+    "message": "Le site a renvoyé un fichier vide",
+    "description": "Сайт вернул пустой файл"
+  },
+  "m_d5e4d21f": {
+    "message": "Ajouter des fichiers",
+    "description": "Добавить файлы"
+  },
+  "m_d615931e": {
+    "message": "Retirer du canevas : $p1$",
+    "description": "Убрать с полотна: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_d67df2ba": {
+    "message": "L’accès à d’autres domaines du flux est nécessaire.",
+    "description": "Нужен доступ к дополнительным доменам потока."
+  },
+  "m_d7053fae": {
+    "message": "Impossible de réinitialiser le compteur de ressources sur l’icône",
+    "description": "Не удалось сбросить счётчик ресурсов на значке"
+  },
+  "m_d72417c1": {
+    "message": "Téléchargé : $p1$",
+    "description": "Загружено: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_d726da85": {
+    "message": "Ressource précédente",
+    "description": "Предыдущий ресурс"
+  },
+  "m_d87047e7": {
+    "message": "Le dossier de ressources a changé. Relancez le téléchargement.",
+    "description": "Папка ресурсов изменена. Начните загрузку заново."
+  },
+  "m_d8a57c59": {
+    "message": "Autorisez l’accès à YouTube et au réglage de l’en-tête pour les aperçus",
+    "description": "Разрешите доступ к YouTube и настройке заголовка для превью"
+  },
+  "m_d8d9f5e0": {
+    "message": "Impossible d’enregistrer le fichier : $p1$",
+    "description": "Не удалось сохранить файл: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_db32fa02": {
+    "message": "Rechercher dans tous les favoris",
+    "description": "Поиск по всем закладкам"
+  },
+  "m_db961883": {
+    "message": "Chargement des collections…",
+    "description": "Загрузка подборок…"
+  },
+  "m_dbac8b27": {
+    "message": "Synchronisation reportée : $p1$",
+    "description": "Синхронизация отложена: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_dc45e976": {
+    "message": "Dossier sélectionné et sous-dossiers",
+    "description": "Выбранная папка с подпапками"
+  },
+  "m_dd9b94db": {
+    "message": "Le serveur a renvoyé une plage d’octets incorrecte",
+    "description": "Сервер вернул неверный byte range"
+  },
+  "m_dde5e55f": {
+    "message": "Le blob ne contient pas de fichier vidéo complet",
+    "description": "Blob не содержит готового видеофайла"
+  },
+  "m_ded72277": {
+    "message": "Version inconnue du catalogue de ressources",
+    "description": "Неизвестная версия каталога ресурсов"
+  },
+  "m_dedb6841": {
+    "message": "Créer",
+    "description": "Создать"
+  },
+  "m_df2d89ae": {
+    "message": "Favoris (…)",
+    "description": "Закладки (…)"
+  },
+  "m_e075e509": {
+    "message": "Le flux est protégé par DRM/ContentProtection et ne peut pas être téléchargé.",
+    "description": "Поток защищён DRM/ContentProtection. Такой поток не загружается."
+  },
+  "m_e157febc": {
+    "message": "Retirer la sélection de la collection ($p1$)",
+    "description": "Убрать выбранные из подборки ($1)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_e2c263be": {
+    "message": "Autoriser l’accès et télécharger",
+    "description": "Разрешить доступ и загрузить"
+  },
+  "m_e30213e1": {
+    "message": "En attente : $p1$",
+    "description": "В очереди: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_e36835e2": {
+    "message": "Favoris et ressources",
+    "description": "Закладки и ресурсы"
+  },
+  "m_e3dff592": {
+    "message": "Aucun favori ne correspond à la recherche et au filtre de ressources.",
+    "description": "Нет закладок, соответствующих поиску и фильтру ресурсов."
+  },
+  "m_e49fa834": {
+    "message": "Actions de la ressource",
+    "description": "Действия с ресурсом"
+  },
+  "m_e4bf6d00": {
+    "message": "Onglet actuel",
+    "description": "Текущая вкладка"
+  },
+  "m_e5adaf66": {
+    "message": "Cette page n’est pas encore dans les favoris.",
+    "description": "Страница ещё не добавлена в закладки."
+  },
+  "m_e61d6b0b": {
+    "message": "Téléchargement annulé.",
+    "description": "Загрузка отменена."
+  },
+  "m_e8338b23": {
+    "message": "Le favori a été supprimé ou son URL a changé",
+    "description": "Закладка удалена или её адрес изменён"
+  },
+  "m_e8aed592": {
+    "message": "Annuler le téléchargement",
+    "description": "Отменить загрузку"
+  },
+  "m_e8cc6c95": {
+    "message": "Autorisez l’accès au site du fichier",
+    "description": "Разрешите доступ к сайту с файлом"
+  },
+  "m_e8d5c854": {
+    "message": "Une copie modifiée existe déjà à destination ; les deux fichiers ont été conservés",
+    "description": "В месте назначения уже есть изменённая копия; оба файла сохранены"
+  },
+  "m_e8ecf714": {
+    "message": "Image enregistrée comme aperçu",
+    "description": "Кадр сохранён как превью"
+  },
+  "m_e9f0d7a2": {
+    "message": "Téléchargé : $p1$ %",
+    "description": "Загружено: $1 %",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_ea12a10a": {
+    "message": "Aperçu : les 30 premières secondes de l’extrait disponible.",
+    "description": "Превью: первые 30 секунд доступного фрагмента."
+  },
+  "m_eaaafc24": {
+    "message": "Favoris : $p1$",
+    "description": "Закладок: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_ebf915bc": {
+    "message": "L’accès au site du fichier n’a pas été accordé",
+    "description": "Доступ к сайту с файлом не предоставлен"
+  },
+  "m_ebf9b45d": {
+    "message": "Bloc de blob non valide",
+    "description": "Некорректный фрагмент blob"
+  },
+  "m_ec6d67b2": {
+    "message": "Mode d’affichage",
+    "description": "Режим просмотра"
+  },
+  "m_ed3853f9": {
+    "message": "Collection introuvable",
+    "description": "Подборка не найдена"
+  },
+  "m_edf1900a": {
+    "message": "Séparez les étiquettes par des virgules. Elles s’appliquent à toutes les ressources de ce favori.",
+    "description": "Разделяйте теги запятыми. Теги относятся ко всем ресурсам этой закладки."
+  },
+  "m_ee4eeac3": {
+    "message": "Faites glisser une ressource du bandeau vers le canevas ou cliquez sur son aperçu. Déposez-la sur un côté pour créer une colonne, au-dessus ou en dessous pour une ligne, ou au centre pour remplacer. Maintenez Ctrl pour intervertir les ressources du canevas.",
+    "description": "Перетащите ресурс из ленты на полотно или нажмите на его превью. Сбоку — колонка, сверху или снизу — строка, в центре — замена. Ctrl — поменять ресурсы на полотне местами."
+  },
+  "m_ee79af1e": {
+    "message": "$p1$ Vous pouvez fermer cette fenêtre.",
+    "description": "$1 Можно закрыть окно.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_ee81ea4e": {
+    "message": "URL du site multimédia non valide",
+    "description": "Недопустимый адрес сайта с медиа"
+  },
+  "m_eec4b53e": {
+    "message": "Mo",
+    "description": "МБ"
+  },
+  "m_ef686c82": {
+    "message": "L’URL de l’onglet a changé. Fermez et rouvrez la fenêtre de l’extension.",
+    "description": "Адрес вкладки изменился. Закройте и заново откройте окно расширения."
+  },
+  "m_ef844a17": {
+    "message": "DASH avec DTD n’est pas pris en charge",
+    "description": "DASH с DTD не поддерживается"
+  },
+  "m_f11589a2": {
+    "message": "Ressource précédente (←)",
+    "description": "Предыдущий ресурс (←)"
+  },
+  "m_f18687f4": {
+    "message": "Vous pouvez utiliser jusqu’à 100 étiquettes de 100 caractères chacune",
+    "description": "Допускается до 100 тегов длиной до 100 символов"
+  },
+  "m_f2176604": {
+    "message": "Impossible de lire les favoris. Ouvrez l’extension dans Chrome et vérifiez son autorisation d’accès aux favoris.",
+    "description": "Не удалось прочитать закладки. Откройте расширение в Chrome и проверьте разрешение на доступ к закладкам."
+  },
+  "m_f252472e": {
+    "message": "Favori non valide",
+    "description": "Некорректная закладка"
+  },
+  "m_f2d35d9f": {
+    "message": "Étagère de favoris · Dans les favoris · Ressources : $p1$",
+    "description": "Полка закладок · В закладках · Ресурсов: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_f2d3c614": {
+    "message": "Ko",
+    "description": "КБ"
+  },
+  "m_f371f078": {
+    "message": "Impossible de capturer une image de la vidéo en 15 secondes",
+    "description": "Не удалось получить кадр видео за 15 секунд"
+  },
+  "m_f45dfef4": {
+    "message": "Choisir un dossier",
+    "description": "Выбрать папку"
+  },
+  "m_f47512a9": {
+    "message": "Image sélectionnée",
+    "description": "Выбранное изображение"
+  },
+  "m_f4c6b0c3": {
+    "message": "Aucun segment disponible dans la piste",
+    "description": "В дорожке нет доступных сегментов"
+  },
+  "m_f4d77d5b": {
+    "message": "Ressources : $p1$. Ressources et étiquettes du favori",
+    "description": "Ресурсов: $1. Ресурсы и теги закладки",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_f585bb70": {
+    "message": "Diffusion en direct : enregistrement de l’extrait actuellement disponible…",
+    "description": "Прямой эфир: сохраняем доступный сейчас фрагмент…"
+  },
+  "m_f5e84ec1": {
+    "message": "Impossible de lire le blob : $p1$. Si le lecteur utilise MediaSource, lancez la lecture et actualisez la liste pour trouver HLS/DASH.",
+    "description": "Не удалось прочитать blob: $1. Если плеер использует MediaSource, запустите видео и обновите список, чтобы найти HLS/DASH.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_f63e0a4b": {
+    "message": "Faites glisser le coin pour redimensionner. Les touches fléchées modifient la taille de 20 pixels.",
+    "description": "Потяните за угол, чтобы изменить размер. Стрелки на клавиатуре — шаг 20 пикселей."
+  },
+  "m_f76749f9": {
+    "message": "Réduire",
+    "description": "Свернуть"
+  },
+  "m_fa03d2dc": {
+    "message": "Impossible d’enregistrer la taille de la fenêtre",
+    "description": "Не удалось сохранить размер окна"
+  },
+  "m_fa6e4568": {
+    "message": "Ressource suivante (→)",
+    "description": "Следующий ресурс (→)"
+  },
+  "m_fabf7aaf": {
+    "message": "Suppression de l’ancien dossier vide : $p1$",
+    "description": "Удаление пустой старой папки: $1",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "m_fbd8bd91": {
+    "message": "Le gestionnaire de téléchargements est déjà occupé",
+    "description": "Загрузчик уже занят"
+  },
+  "m_fc3a98fc": {
+    "message": "Contenu du dossier",
+    "description": "Содержимое папки"
+  },
+  "m_fe2373b5": {
+    "message": "Pour enregistrer des ressources, ",
+    "description": "Для сохранения ресурсов "
+  },
+  "m_fe36e0b5": {
+    "message": "Renommer la collection",
+    "description": "Переименовать подборку"
+  },
+  "m_fe6c0d23": {
+    "message": "Le site n’a pas renvoyé de liste HLS",
+    "description": "Сайт вернул не HLS-плейлист"
+  },
+  "m_fe7bd8a2": {
+    "message": "Chemin du dossier",
+    "description": "Путь к папке"
+  },
+  "m_fed9a0c6": {
+    "message": "Remplacer la ressource",
+    "description": "Заменить ресурс"
+  },
+  "m_ff98ac4a": {
+    "message": "Ligne en dessous",
+    "description": "Строка снизу"
+  },
+  "m_ffc96130": {
+    "message": "Avec ressources",
+    "description": "С ресурсами"
+  }
+}

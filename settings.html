@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <script type="module" src="src/i18n.js"></script>
+  <link rel="icon" type="image/png" href="icons/bookmark-32.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Настройки · Полка закладок</title>
+  <link rel="stylesheet" href="src/style.css">
+  <script type="module" src="src/popup-size.js"></script>
+  <script type="module" src="src/scrollbars.js"></script>
+  <script src="vendor/sql-wasm.js"></script>
+  <script type="module" src="src/settings.js"></script>
+</head>
+<body class="settings-page">
+  <header>
+    <a class="expand back-link" href="popup.html" title="Назад к закладкам" aria-label="Назад к закладкам"></a>
+    <strong>Настройки</strong>
+  </header>
+  <main class="settings-content">
+    <h1>Ресурсы расширения</h1>
+    <section class="setting" aria-labelledby="resource-folder-label">
+      <div class="setting-description">
+        <h2 id="resource-folder-label">Папка на диске</h2>
+        <p>Корневая папка пользовательских ресурсов расширения.</p>
+        <p id="resource-folder" class="folder-value">Загрузка…</p>
+      </div>
+      <button id="choose-folder" class="settings-button" type="button" disabled>Выбрать папку</button>
+    </section>
+    <div class="folder-access">
+      <p id="folder-status" role="status" aria-live="polite"></p>
+      <button id="restore-access" class="settings-button" type="button" hidden>Разрешить доступ</button>
+    </div>
+    <p class="settings-note">Папка сохраняется автоматически. В ней хранятся файлы ресурсов и каталог метаданных. Для добавления файлов и синхронизации папок нужен доступ к чтению и записи.</p>
+  </main>
+</body>
+</html>

@@ -1,0 +1,30 @@
+export const MIME_TYPE_JAVASCRIPT = "text/javascript";
+export const MIME_TYPE_WASM = "application/wasm";
+export const CORE_VERSION = "0.12.10";
+export const CORE_URL = new URL("./ffmpeg-core.js", import.meta.url).href;
+// CWS requires bundled executable assets, including unused dependency fallbacks.
+export function localAssetURL(value, name) {
+    const bundled = new URL(name, import.meta.url).href;
+    if (value !== undefined && new URL(value, import.meta.url).href !== bundled)
+        throw new Error("FFmpeg only supports bundled executable assets");
+    return bundled;
+}
+export var FFMessageType;
+(function (FFMessageType) {
+    FFMessageType["LOAD"] = "LOAD";
+    FFMessageType["EXEC"] = "EXEC";
+    FFMessageType["FFPROBE"] = "FFPROBE";
+    FFMessageType["WRITE_FILE"] = "WRITE_FILE";
+    FFMessageType["READ_FILE"] = "READ_FILE";
+    FFMessageType["DELETE_FILE"] = "DELETE_FILE";
+    FFMessageType["RENAME"] = "RENAME";
+    FFMessageType["CREATE_DIR"] = "CREATE_DIR";
+    FFMessageType["LIST_DIR"] = "LIST_DIR";
+    FFMessageType["DELETE_DIR"] = "DELETE_DIR";
+    FFMessageType["ERROR"] = "ERROR";
+    FFMessageType["DOWNLOAD"] = "DOWNLOAD";
+    FFMessageType["PROGRESS"] = "PROGRESS";
+    FFMessageType["LOG"] = "LOG";
+    FFMessageType["MOUNT"] = "MOUNT";
+    FFMessageType["UNMOUNT"] = "UNMOUNT";
+})(FFMessageType || (FFMessageType = {}));

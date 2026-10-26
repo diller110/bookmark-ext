@@ -1,0 +1,26 @@
+[
+  {
+    "id": "native-dependencies",
+    "status": "FAIL",
+    "evidence": "dependencies.md",
+    "reason": "Native FFmpeg 5.1.4 remains outdated. Known demuxers are blocked and tested, but a maintained native build or completed security review is required before submission."
+  },
+  {
+    "id": "publisher-and-privacy",
+    "status": "UNKNOWN",
+    "evidence": "privacy-policy.md",
+    "reason": "Publisher identity, working contact, public HTTPS privacy-policy URL and final Dashboard disclosures have not been provided or verified."
+  },
+  {
+    "id": "distribution-licenses",
+    "status": "UNKNOWN",
+    "evidence": "release-checklist.md",
+    "reason": "Bundled licenses are retained; the publisher must complete GPL corresponding-source distribution and choose a license for their own code."
+  },
+  {
+    "id": "store-assets-and-manual-tests",
+    "status": "UNKNOWN",
+    "evidence": "release-checklist.md",
+    "reason": "Anonymous screenshots are generated; final listing, promotional assets, real folder picker, update and data-removal instructions still need publisher verification."
+  }
+]

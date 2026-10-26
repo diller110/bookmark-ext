@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <script type="module" src="src/i18n.js"></script>
+  <link rel="icon" type="image/png" href="icons/bookmark-32.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Полка закладок</title>
+  <link rel="stylesheet" href="src/style.css">
+  <script type="module" src="src/popup-size.js"></script>
+  <script type="module" src="src/scrollbars.js"></script>
+  <script src="vendor/sql-wasm.js"></script>
+  <script type="module" src="src/popup.js"></script>
+</head>
+<body>
+  <header id="app-header">
+    <div class="header-title"><a id="tab-back" class="expand back-link" href="tab.html" aria-label="Назад к текущей вкладке" title="Назад к текущей вкладке" hidden></a><strong id="app-title">Закладки</strong></div>
+    <div class="header-search">
+      <label class="search"><span class="search-icon" aria-hidden="true"></span><input id="search" type="search" placeholder="Поиск закладок" aria-label="Поиск по всем закладкам" autocomplete="off"></label>
+      <button id="collections-toggle" class="settings-button" type="button" popovertarget="collections-menu" aria-haspopup="menu">Подборки</button>
+    </div>
+    <div class="header-actions">
+      <a class="expand" href="popup.html" target="_blank" rel="noopener" title="Открыть в отдельной вкладке" aria-label="Открыть в отдельной вкладке"></a>
+      <a class="expand settings-link" href="settings.html" title="Настройки расширения" aria-label="Настройки расширения"></a>
+    </div>
+  </header>
+  <div class="workspace">
+    <button id="canvas-header-reveal" class="canvas-reveal" type="button" aria-label="Свернуть шапку" aria-controls="app-header folder-toolbar" aria-expanded="true"></button>
+    <button id="canvas-sidebar-reveal" class="canvas-reveal" type="button" aria-label="Свернуть папки" aria-controls="sidebar" aria-expanded="true"></button>
+    <aside id="sidebar" aria-label="Папки закладок">
+      <h2>Папки</h2>
+      <nav id="folders" aria-label="Дерево папок"></nav>
+    </aside>
+    <div id="sidebar-resizer" role="separator" tabindex="0" aria-label="Ширина списка папок" aria-orientation="vertical" aria-controls="sidebar"></div>
+    <main>
+      <div id="folder-toolbar" class="folder-toolbar">
+        <div class="view-switch" role="group" aria-label="Режим просмотра">
+          <button id="bookmarks-mode" type="button" aria-pressed="true">Закладки (…)</button>
+          <button id="resources-mode" type="button" aria-pressed="false">Ресурсы (<span id="resource-mode-count">…</span>)</button>
+        </div>
+        <nav id="breadcrumbs" aria-label="Путь к папке"></nav>
+        <select id="bookmark-resource-filter" aria-label="Фильтр закладок по ресурсам" title="Фильтр закладок по ресурсам">
+          <option value="all">Все закладки</option>
+          <option value="with">С ресурсами</option>
+          <option value="without">Без ресурсов</option>
+        </select>
+        <button id="resource-view-toggle" class="expand resource-view-toggle" type="button" popovertarget="resource-view-menu" aria-label="Вид отображения ресурсов" title="Вид отображения ресурсов"></button>
+      </div>
+      <div id="resource-filters" class="resource-filters" hidden>
+        <label>Показать<select id="resource-scope"><option value="all">Все ресурсы</option><option value="folder">Выбранная папка с подпапками</option></select></label>
+        <label>Тег<select id="resource-tag-filter"><option value="">Все теги</option></select></label>
+      </div>
+      <div id="resource-selection" hidden>
+        <span id="resource-selected-count" role="status"></span>
+        <button id="resource-select-all" class="settings-button" type="button">Выбрать все</button>
+        <button id="resource-clear-selection" class="settings-button" type="button">Снять выбор</button>
+      </div>
+      <div id="library-notice">
+        <p id="library-status" role="status"></p>
+        <button id="dismiss-library-notice" class="expand library-notice-close" type="button" aria-label="Скрыть сообщение библиотеки" title="Скрыть сообщение"></button>
+      </div>
+      <p id="status" role="status">Загружаем закладки…</p>
+      <section id="resource-canvas" aria-label="Полотно ресурсов" hidden></section>
+      <button id="resource-filmstrip-toggle" type="button" aria-label="Свернуть ленту превью" title="Свернуть ленту превью" aria-expanded="true" aria-controls="items" hidden></button>
+      <ul id="items" aria-label="Содержимое папки"></ul>
+      <button id="retry" type="button" hidden>Повторить загрузку</button>
+    </main>
+  </div>
+  <div id="collections-menu" class="collections-menu" popover role="menu" aria-label="Подборки"></div>
+  <div id="resource-view-menu" class="collections-menu" popover role="group" aria-label="Вид отображения ресурсов">
+    <button type="button" data-resource-view="large" aria-pressed="true">Крупный</button>
+    <button type="button" data-resource-view="canvas" aria-pressed="false">Просмотр</button>
+  </div>
+  <div id="resource-context-menu" class="collections-menu" popover role="menu" aria-label="Действия с ресурсом"></div>
+  <div id="collection-toast" popover="manual" role="status" aria-live="polite" aria-atomic="true"></div>
+  <dialog id="collection-dialog" aria-labelledby="collection-title">
+    <form id="collection-form">
+      <h2 id="collection-title">Новая подборка</h2>
+      <label for="collection-name">Название</label>
+      <input id="collection-name" maxlength="100" required autocomplete="off" autofocus>
+      <p id="collection-error" role="status"></p>
+      <div class="collection-dialog-actions"><button id="collection-cancel" class="settings-button" type="button">Отмена</button><button id="collection-save" class="settings-button" type="submit">Создать</button></div>
+    </form>
+  </dialog>
+  <dialog id="media-dialog" aria-labelledby="media-title">
+    <div class="resource-dialog-heading">
+      <h2 id="media-title"></h2>
+      <form method="dialog"><button class="settings-button" aria-label="Закрыть просмотр" autofocus>Закрыть</button></form>
+    </div>
+    <div id="media-content" aria-live="polite"></div>
+    <div class="media-preview-actions">
+      <button id="media-set-preview" class="settings-button" type="button" hidden disabled>Сделать кадр превью</button>
+      <span id="media-preview-status" role="status"></span>
+    </div>
+    <nav class="media-navigation" aria-label="Переключение ресурсов">
+      <button id="media-previous" class="settings-button" type="button" aria-label="Предыдущий ресурс" title="Предыдущий ресурс (←)">←</button>
+      <span id="media-position" role="status"></span>
+      <button id="media-next" class="settings-button" type="button" aria-label="Следующий ресурс" title="Следующий ресурс (→)">→</button>
+    </nav>
+  </dialog>
+  <dialog id="resource-dialog" aria-labelledby="resource-title">
+    <div class="resource-dialog-heading">
+      <h2 id="resource-title"></h2>
+      <form method="dialog"><button class="settings-button" aria-label="Закрыть ресурсы">Закрыть</button></form>
+    </div>
+    <div class="resource-dialog-body">
+      <label for="bookmark-tags">Теги закладки</label>
+      <div class="resource-tags"><input id="bookmark-tags" placeholder="работа, прочитать" disabled><button id="save-tags" class="settings-button" type="button" disabled>Сохранить теги</button></div>
+      <p class="resource-hint">Разделяйте теги запятыми. Теги относятся ко всем ресурсам этой закладки.</p>
+      <div class="resource-actions"><button id="resource-upload" class="settings-button" type="button" disabled>Добавить файлы</button><button id="grant-resource-access" class="settings-button" type="button" hidden>Разрешить доступ</button><a href="settings.html">Настройки папки</a></div>
+      <input id="resource-files" type="file" multiple hidden>
+      <label for="resource-url">Прямая ссылка на файл</label>
+      <form id="resource-url-form" class="resource-tags">
+        <input id="resource-url" type="url" placeholder="https://example.com/image.jpg" required disabled>
+        <button id="resource-url-download" class="settings-button" type="submit" disabled>Загрузить по ссылке</button>
+      </form>
+      <p id="resource-message" role="status" aria-live="polite"></p>
+      <ul id="resource-list"></ul>
+      <div id="resource-preview"></div>
+    </div>
+  </dialog>
+</body>
+</html>
